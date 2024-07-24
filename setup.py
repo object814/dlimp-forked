@@ -6,9 +6,8 @@ setup(
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
-        "tensorflow==2.13.1",
-        "hahaha"
-        "tensorflow_datasets>=4.9.1",
+        "tensorflow==2.15.0",
+        "tensorflow_datasets>=4.9.2",
     ],
     extras_require={
         "convert": [
